@@ -4,11 +4,11 @@ echo -e "You are installing Clofio CostGuard CLI\n"
 
 echo -e "Downloading binary...\n"
 
-wget -nv https://github.com/Clofio/costguard-binary/releases/download/v0.1.0/costguard-linux-v0.1.0.zip
+wget -nv https://github.com/Clofio/costguard-binary/releases/latest/download/costguard-linux.zip
 
 echo -e "Installing binary...\n"
 
-unzip costguard-linux-v0.1.0.zip -d /usr/local/bin && chmod +x /usr/local/bin/costguard
+unzip costguard-linux.zip -d /usr/local/bin && chmod +x /usr/local/bin/costguard
 
 echo -e "Configuring credentials...\n"
 
